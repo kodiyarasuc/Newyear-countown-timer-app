@@ -1,0 +1,88 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(./images/1.png);
+    color: #fff;
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+ .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+ }  
+ .container p{
+    font-size: 20px;
+    letter-spacing: 2px;
+ }
+ .container h2{
+       margin-top: 10px;
+       letter-spacing: 3px;
+       font-size: 30px;
+       font-weight: 500;
+ }
+
+.counter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.counter .box{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-left:15px;
+}
+.box{
+    width: 60px;
+    height: 50px;
+    text-align: center;
+}
+#hour{
+    font-size: 35px;
+    font-weight: 500;
+}
+#day{
+    font-size: 35px;
+    font-weight: 500;
+}
+#minute{
+    font-size: 35px;
+    font-weight: 500;
+}
+#second{
+    font-size: 35px;
+    font-weight: 500;
+}
+
+@media(min-width:576px){
+    .container p{
+        font-size: 30px;
+    }
+    .container h2{
+        font-size: 60px;
+    }
+    
+}
+@media(min-width:768px){
+    .container p{
+        font-size: 40px;
+    }
+    .container h2{
+        font-size: 80px;
+    }
+    
+}
